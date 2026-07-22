@@ -58,6 +58,7 @@ public class ConditionalStatement {
 		    	System.out.println("no discount is applied");
 		    }
 		    
+		    
 
 	}
 	
