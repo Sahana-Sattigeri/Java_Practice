@@ -8,12 +8,16 @@ public class array01 {
 		int max = num[0];
 		for(int i =0 ; i<num.length;i++) {
 		
-			if(num[0]>max) {
-				System.out.println(num[0]);
+			if(num[i]>max) {
+				max = num[i];
 			}
+		
 			
 		}
+		System.out.println("max : " + max);
+		
 
 	}
 
 }
+
