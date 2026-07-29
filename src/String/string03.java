@@ -6,9 +6,23 @@ public class string03 {
 		String s = new String("java programming");
 //		System.out.println(s.length());
 		
-		for(int i = 0; i<s.length();i++) {
-			System.out.println(charAt(i));
+		
+		
+//		String count = "";
+//		for(int i = 0; i<s.length();i++) {
+//			count += 1;
+//			
+//		}
+//		System.out.println(s.length());
+		char[] ch = s.toCharArray();
+		int count = 0;
+		for(int i = 0;i<ch.length;i++) {
+			count ++;
+			
 		}
+		
+		System.out.println(count);
+		
 
 	}
 
