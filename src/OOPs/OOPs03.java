@@ -1,6 +1,6 @@
 package OOPs;
 
-class calculator{
+class Calculator{
 	public int add(int a, int b, int c) {
 		return a+b+c;
 	}
@@ -17,7 +17,7 @@ class calculator{
 public class OOPs03 {
 
 	public static void main(String[] args) {
-		calculator obj = new calculator();
+		 Calculator obj = new Calculator();
 		int result = obj.add(2,  5);
 		System.out.println(result);
 
